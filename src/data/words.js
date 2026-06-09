@@ -1502,4 +1502,400 @@ export const NEW_WORDS = [
     "example": "我在后面等你。 (I am waiting for you in back.)",
     "lesson": 7
   },
+  {
+    "id": 169,
+    "word": "房间",
+    "pinyin": "fángjiān",
+    "english": "room",
+    "vietnamese": "phòng",
+    "example": "我在房间里。 (I am in the room.)",
+    "lesson": 8
+  },
+  {
+    "id": 170,
+    "word": "里",
+    "pinyin": "lǐ",
+    "english": "inside",
+    "vietnamese": "bên trong",
+    "example": "我在房间里。 (I am in the room.)",
+    "lesson": 8
+  },
+  {
+    "id": 171,
+    "word": "里面/里边",
+    "pinyin": "lǐmiàn/lǐbiān",
+    "english": "inside",
+    "vietnamese": "bên trong",
+    "example": "书在书里面。 (The book is inside the box.)",
+    "lesson": 8
+  },
+  {
+    "id": 172,
+    "word": "外",
+    "pinyin": "wài",
+    "english": "outside",
+    "vietnamese": "bên ngoài",
+    "example": "书在箱子外面。 (The book is outside the box.)",
+    "lesson": 8
+  },
+  {
+    "id": 173,
+    "word": "外面/外边",
+    "pinyin": "wàimiàn/wàibiān",
+    "english": "outside",
+    "vietnamese": "bên ngoài",
+    "example": "书在箱子外面。 (The book is outside the box.)",
+    "lesson": 8
+  },
+  {
+    "id": 174,
+    "word": "桌子",
+    "pinyin": "zhuōzi",
+    "english": "table, desk",
+    "vietnamese": "bàn, giá",
+    "example": "我在桌子上。 (I am at the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 175,
+    "word": "把",
+    "pinyin": "bǎ",
+    "english": "a measure word for things with handles",
+    "vietnamese": "lượng từ cho các vật có tay cầm",
+    "example": "我有一把椅子。 (I have a chair.)",
+    "lesson": 8
+  },
+  {
+    "id": 176,
+    "word": "椅子",
+    "pinyin": "yǐzi",
+    "english": "chair",
+    "vietnamese": "ghế",
+    "example": "我有一把椅子。 (I have a chair.)",
+    "lesson": 8
+  },
+  {
+    "id": 177,
+    "word": "书架",
+    "pinyin": "shūjià",
+    "english": "bookshelf",
+    "vietnamese": "kệ sách",
+    "example": "书在书架上。 (The book is on the bookshelf.)",
+    "lesson": 8
+  },
+  {
+    "id": 178,
+    "word": "柜子",
+    "pinyin": "guizi",
+    "english": "wardrobe",
+    "vietnamese": "tủ",
+    "example": "书在柜子里。 (The book is in the wardrobe.)",
+    "lesson": 8
+  },
+  {
+    "id": 179,
+    "word": "墙",
+    "pinyin": "qiáng",
+    "english": "wall",
+    "vietnamese": "tường",
+    "example": "书在墙上。 (The book is on the wall.)",
+    "lesson": 8
+  },
+  {
+    "id": 180,
+    "word": "上",
+    "pinyin": "shàng",
+    "english": "above, on top of",
+    "vietnamese": "trên",
+    "example": "书在桌子上。 (The book is on the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 181,
+    "word": "上面/上边",
+    "pinyin": "shàngmiàn/shàngbiān",
+    "english": "above, on top of",
+    "vietnamese": "phía trên",
+    "example": "书在桌子上。 (The book is on the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 182,
+    "word": "左边/左面",
+    "pinyin": "zuǒbiān/zuǒmiàn",
+    "english": "left",
+    "vietnamese": "phía trái",
+    "example": "我在左边等你。 (I am waiting for you on the left.)",
+    "lesson": 8
+  },
+  {
+    "id": 183,
+    "word": "左",
+    "pinyin": "zuǒ",
+    "english": "left",
+    "vietnamese": "trái",
+    "example": "我在左边等你。 (I am waiting for you on the left.)",
+    "lesson": 8
+  },
+  {
+    "id": 184,
+    "word": "右边/右面",
+    "pinyin": "yòubiān/yòumiàn",
+    "english": "right",
+    "vietnamese": "phía phải",
+    "example": "我在右边等你。 (I am waiting for you on the right.)",
+    "lesson": 8
+  },
+  {
+    "id": 185,
+    "word": "右",
+    "pinyin": "yòu",
+    "english": "right",
+    "vietnamese": "phải",
+    "example": "我在右边等你。 (I am waiting for you on the right.)",
+    "lesson": 8
+  },
+  {
+    "id": 186,
+    "word": "旁边/旁面",
+    "pinyin": "pángbiān/pángmiàn",
+    "english": "beside, next to",
+    "vietnamese": "bên cạnh",
+    "example": "我在旁边等你。 (I am waiting for you beside the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 187,
+    "word": "旁",
+    "pinyin": "páng",
+    "english": "beside, next to",
+    "vietnamese": "bên cạnh",
+    "example": "我在旁边等你。 (I am waiting for you beside the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 188,
+    "word": "呢",
+    "pinyin": "ne",
+    "english": "particle indicating a question",
+    "vietnamese": "bộ phận hỏi",
+    "example": "你呢？ (What about you?)",
+    "lesson": 8
+  },
+  {
+    "id": 189,
+    "word": "下面/下边",
+    "pinyin": "xiàmiàn/xiàbiān",
+    "english": "below, underneath",
+    "vietnamese": "phía dưới",
+    "example": "书在桌子下面。 (The book is under the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 190,
+    "word": "下",
+    "pinyin": "xià",
+    "english": "below, underneath",
+    "vietnamese": "dưới",
+    "example": "书在桌子下面。 (The book is under the table.)",
+    "lesson": 8
+  },
+  {
+    "id": 191,
+    "word": "中间",
+    "pinyin": "zhōngjiān",
+    "english": "middle, between, among",
+    "vietnamese": "giữa",
+    "example": "我在中间等你。 (I am waiting for you in the middle.)",
+    "lesson": 8
+  },
+  {
+    "id": 192,
+    "word": "坐",
+    "pinyin": "zuò",
+    "english": "to sit",
+    "vietnamese": "ngồi",
+    "example": "我坐在椅子上。 (I am sitting on the chair.)",
+    "lesson": 9
+  },
+  {
+    "id": 193,
+    "word": "喝",
+    "pinyin": "hē",
+    "english": "to drink",
+    "vietnamese": "uống",
+    "example": "我喝一杯水。 (I am drinking a cup of water.)",
+    "lesson": 9
+  },
+  {
+    "id": 194,
+    "word": "茶",
+    "pinyin": "chá",
+    "english": "tea",
+    "vietnamese": "trà",
+    "example": "我喝一杯茶。 (I am drinking a cup of tea.)",
+    "lesson": 9
+  },
+  {
+    "id": 195,
+    "word": "还是",
+    "pinyin": "háishi",
+    "english": "still, yet (used to indicate a preference or choice)",
+    "vietnamese": "vẫn",
+    "example": "我还是喜欢喝茶。 (I still like to drink tea.)",
+    "lesson": 9
+  },
+  {
+    "id": 196,
+    "word": "咖啡",
+    "pinyin": "kāfēi",
+    "english": "coffee",
+    "vietnamese": "cà phê",
+    "example": "我喝一杯咖啡。 (I am drinking a cup of coffee.)",
+    "lesson": 9
+  },
+  {
+    "id": 197,
+    "word": "吃",
+    "pinyin": "chī",
+    "english": "to eat",
+    "vietnamese": "ăn",
+    "example": "我吃一个苹果。 (I am eating an apple.)",
+    "lesson": 9
+  },
+  {
+    "id": 198,
+    "word": "面包",
+    "pinyin": "miànbāo",
+    "english": "bread",
+    "vietnamese": "bánh mì",
+    "example": "我吃一个面包。 (I am eating a piece of bread.)",
+    "lesson": 9
+  },
+  {
+    "id": 199,
+    "word": "欢迎",
+    "pinyin": "huānyíng",
+    "english": "welcome",
+    "vietnamese": "chào mừng",
+    "example": "欢迎来到中国。 (Welcome to China.)",
+    "lesson": 9
+  },
+  {
+    "id": 200,
+    "word": "位",
+    "pinyin": "wei",
+    "english": "a measure word for people (polite)",
+    "vietnamese": "vị",
+    "example": "欢迎位客人。 (Welcome, guests.)",
+    "lesson": 9
+  },
+  {
+    "id": 201,
+    "word": "(一)点儿",
+    "pinyin": "(yì) diǎnr",
+    "english": "a little, a bit",
+    "vietnamese": "một chút",
+    "example": "我有一点儿饿。 (I am a little hungry.)",
+    "lesson": 9
+  },
+  {
+    "id": 202,
+    "word": "这儿",
+    "pinyin": "zhèr",
+    "english": "here",
+    "vietnamese": "đây",
+    "example": "我在这儿等你。 (I am waiting for you here.)",
+    "lesson": 9
+  },
+  {
+    "id": 203,
+    "word": "米饭",
+    "pinyin": "mǐfàn",
+    "english": "rice",
+    "vietnamese": "cơm",
+    "example": "我吃米饭。 (I am eating rice.)",
+    "lesson": 9
+  },
+  {
+    "id": 204,
+    "word": "饺子",
+    "pinyin": "jiǎozi",
+    "english": "dumplings",
+    "vietnamese": "há cảo",
+    "example": "我吃饺子。 (I am eating dumplings.)",
+    "lesson": 9
+  },
+  {
+    "id": 205,
+    "word": "包子",
+    "pinyin": "bāozi",
+    "english": "steamed bun",
+    "vietnamese": "bánh bao",
+    "example": "我吃包子。 (I am eating a steamed bun.)",
+    "lesson": 9
+  },
+  {
+    "id": 206,
+    "word": "面条",
+    "pinyin": "miàntiáo",
+    "english": "noodles",
+    "vietnamese": "mỳ",
+    "example": "我吃面条。 (I am eating noodles.)",
+    "lesson": 9
+  },
+  {
+    "id": 207,
+    "word": "咱们",
+    "pinyin": "zánmen",
+    "english": "we, us (informal)",
+    "vietnamese": "chúng ta",
+    "example": "咱们一起去吧。 (Let's go together.)",
+    "lesson": 9
+  },
+  {
+    "id": 208,
+    "word": "吧",
+    "pinyin": "ba",
+    "english": "a modal particle indicating suggestion or assumption",
+    "vietnamese": "đi, nhé, thôi, nào, ... (một trợ từ biểu thị đề nghị hoặc giả định)",
+    "example": "咱们一起去吧。 (Let's go together.)",
+    "lesson": 9
+  },
+  {
+    "id": 209,
+    "word": "行",
+    "pinyin": "xíng",
+    "english": "to be okay, to be all right",
+    "vietnamese": "được, ổn",
+    "example": "好的，我们走吧。 (Okay, let's go.)",
+    "lesson": 9
+  },
+  {
+    "id": 210,
+    "word": "不行",
+    "pinyin": "bù xíng",
+    "english": "not okay, not all right",
+    "vietnamese": "không được, không ổn",
+    "example": "不行，我不能去。 (No, I can't go.)",
+    "lesson": 9
+  },
+  {
+    "id": 211,
+    "word": "啤酒",
+    "pinyin": "píjiǔ",
+    "english": "beer",
+    "vietnamese": "bia",
+    "example": "我喝一杯啤酒。 (I am drinking a cup of beer.)",
+    "lesson": 9
+  },
+  {
+    "id": 212,
+    "word": "酒",
+    "pinyin": "jiǔ",
+    "english": "alcohol, wine",
+    "vietnamese": "rượu",
+    "example": "我喝一杯酒。 (I am drinking a cup of wine.)",
+    "lesson": 9
+  },
 ]
