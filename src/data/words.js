@@ -1898,4 +1898,644 @@ export const NEW_WORDS = [
     "example": "我喝一杯酒。 (I am drinking a cup of wine.)",
     "lesson": 9
   },
+  {
+    "id": 213,
+    "word": "苹果",
+    "pinyin": "píngguǒ",
+    "english": "apple",
+    "vietnamese": "táo",
+    "example": "我吃一个苹果。 (I am eating an apple.)",
+    "lesson": 10
+  },
+  {
+    "id": 214,
+    "word": "快/元",
+    "pinyin": "kuài/yuán",
+    "english": "units of currency in China (kuài is more colloquial, yuán is more formal)",
+    "vietnamese": "đơn vị tiền tệ ở Trung Quốc (kuài là cách nói thông thường, yuán là cách nói trang trọng hơn)",
+    "example": "这个苹果多少钱？ (How much is this apple?)",
+    "lesson": 10
+  },
+  {
+    "id": 215,
+    "word": "毛/角",
+    "pinyin": "máo/jiǎo",
+    "english": "units of currency in China (máo is the smallest unit, jiǎo is a larger unit)",
+    "vietnamese": "đơn vị tiền tệ ở Trung Quốc (máo là đơn vị nhỏ nhất, jiǎo là đơn vị lớn hơn)",
+    "example": "这个苹果多少钱？ (How much is this apple?)",
+    "lesson": 10
+  },
+  {
+    "id": 216,
+    "word": "分",
+    "pinyin": "fēn",
+    "english": "the smallest unit of currency in China",
+    "vietnamese": "phân",
+    "example": "这个苹果多少钱？ (How much is this apple?)",
+    "lesson": 10
+  },
+  {
+    "id": 217,
+    "word": "斤",
+    "pinyin": "jīn",
+    "english": "a unit of weight in China",
+    "vietnamese": "kiện",
+    "example": "这个苹果有半斤重。 (This apple weighs half a jin.)",
+    "lesson": 10
+  },
+  {
+    "id": 218,
+    "word": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "english": "banana",
+    "vietnamese": "chuối",
+    "example": "我吃一根香蕉。 (I am eating a banana.)",
+    "lesson": 10
+  },
+
+  {
+    "id": 219,
+    "word": "要",
+    "pinyin": "yào",
+    "english": "to want, to need",
+    "vietnamese": "muốn, cần",
+    "example": "我要喝水。 (I want to drink water.)",
+    "lesson": 10
+  },
+  {
+    "id": 220,
+    "word": "一共",
+    "pinyin": "yígòng",
+    "english": "in total, all together",
+    "vietnamese": "tất cả",
+    "example": "我们一共吃了三碗饭。 (We ate three bowls of rice in total.)",
+    "lesson": 10
+  },
+  {
+    "id": 221,
+    "word": "钱",
+    "pinyin": "qián",
+    "english": "money",
+    "vietnamese": "tiền",
+    "example": "我有好多钱。 (I have a lot of money.)",
+    "lesson": 10
+  },
+  {
+    "id": 222,
+    "word": "种",
+    "pinyin": "zhǒng",
+    "english": "kind, type (a measure word for types or kinds of things)",
+    "vietnamese": "loại, chủng loại",
+    "example": "这是什么种水果？ (What kind of fruit is this?)",
+    "lesson": 10
+  },
+  {
+    "id": 223,
+    "word": "太...了",
+    "pinyin": "tài...le",
+    "english": "too ... (used to express that something is excessive)",
+    "vietnamese": "quá ... (được sử dụng để biểu thị rằng điều gì đó là quá mức)",
+    "example": "这太贵了。 (This is too expensive.)",
+    "lesson": 10
+  },
+  {
+    "id": 224,
+    "word": "贵",
+    "pinyin": "guì",
+    "english": "expensive",
+    "vietnamese": "đắt",
+    "example": "这太贵了。 (This is too expensive.)",
+    "lesson": 10
+  },
+  {
+    "id": 225,
+    "word": "便宜",
+    "pinyin": "piányi",
+    "english": "cheap",
+    "vietnamese": "rẻ",
+    "example": "这很便宜。 (This is cheap.)",
+    "lesson": 10
+  },
+  {
+    "id": 226,
+    "word": "怎么样",
+    "pinyin": "zěnme yàng",
+    "english": "how is it, what about it",
+    "vietnamese": "thế nào",
+    "example": "这怎么样？ (How is this?)",
+    "lesson": 10
+  },
+  {
+    "id": 227,
+    "word": "还",
+    "pinyin": "hái",
+    "english": "in addition",
+    "vietnamese": "còn, thêm vào đó",
+    "example": "这还不够。 (This is still not enough.)",
+    "lesson": 10
+  },
+  {
+    "id": 228,
+    "word": "别的",
+    "pinyin": "biéde",
+    "english": "other",
+    "vietnamese": "khác",
+    "example": "别的地方 (elsewhere)",
+    "lesson": 10
+  },
+  {
+    "id": 229,
+    "word": "给",
+    "pinyin": "gěi",
+    "english": "to give",
+    "vietnamese": "cho",
+    "example": "给我一本书。 (Give me a book.)",
+    "lesson": 10
+  },
+  {
+    "id": 230,
+    "word": "找",
+    "pinyin": "zhǎo",
+    "english": "to give change",
+    "vietnamese": "tìm lại tiền, thối tiền",
+    "example": "我要找零钱。 (I want some change.)",
+    "lesson": 10
+  },
+  {
+    "id": 231,
+    "word": "好久不见",
+    "pinyin": "hǎo jiǔ bù jiàn",
+    "english": "long time no see",
+    "vietnamese": "rất lâu không gặp",
+    "example": "好久不见，你最近怎么样？ (Long time no see, how have you been?)",
+    "lesson": 11
+  },
+  {
+    "id": 232,
+    "word": "好久",
+    "pinyin": "hǎo jiǔ",
+    "english": "for a long time",
+    "vietnamese": "rất lâu",
+    "example": "好久不见！ (Long time no see!)",
+    "lesson": 11
+  },
+  {
+    "id": 233,
+    "word": "久",
+    "pinyin": "jiǔ",
+    "english": "long time",
+    "vietnamese": "lâu",
+    "example": "好久不见！ (Long time no see!)",
+    "lesson": 11
+  },
+  {
+    "id": 234,
+    "word": "见",
+    "pinyin": "jiàn",
+    "english": "to see",
+    "vietnamese": "gặp",
+    "example": "好久不见！ (Long time no see!)",
+    "lesson": 11
+  },
+  {
+    "id": 235,
+    "word": "忙",
+    "pinyin": "máng",
+    "english": "busy",
+    "vietnamese": "bận",
+    "example": "我很忙。 (I am very busy.)",
+    "lesson": 11
+  },
+  {
+    "id": 236,
+    "word": "身体",
+    "pinyin": "shēntǐ",
+    "english": "body, health",
+    "vietnamese": "thân thể, sức khỏe",
+    "example": "我的身体很好。 (My body is very healthy.)",
+    "lesson": 11
+  },
+  {
+    "id": 237,
+    "word": "去",
+    "pinyin": "qù",
+    "english": "to go",
+    "vietnamese": "đi",
+    "example": "我去商店。 (I am going to the store.)",
+    "lesson": 11
+  },
+  {
+    "id": 238,
+    "word": "回",
+    "pinyin": "huí",
+    "english": "to return, to go back",
+    "vietnamese": "trở lại, quay lại",
+    "example": "我要回学校。 (I want to go back to school.)",
+    "lesson": 11
+  },
+  {
+    "id": 239,
+    "word": "换",
+    "pinyin": "huàn",
+    "english": "to change, to exchange",
+    "vietnamese": "đổi",
+    "example": "我要换钱。 (I want to exchange money.)",
+    "lesson": 11
+  },
+  {
+    "id": 240,
+    "word": "还",
+    "pinyin": "hái",
+    "english": "still, yet",
+    "vietnamese": "vẫn, còn",
+    "example": "他还在这里。 (He is still here.)",
+    "lesson": 11
+  },
+  {
+    "id": 241,
+    "word": "住",
+    "pinyin": "zhù",
+    "english": "to live, to stay",
+    "vietnamese": "ở",
+    "example": "我住在学校。 (I live at the school.)",
+    "lesson": 11
+  },
+  {
+    "id": 242,
+    "word": "电话",
+    "pinyin": "diànhuà",
+    "english": "telephone",
+    "vietnamese": "điện thoại",
+    "example": "这是我的电话。 (This is my phone.)",
+    "lesson": 11
+  },
+  {
+    "id": 243,
+    "word": "号码",
+    "pinyin": "hàomǎ",
+    "english": "number",
+    "vietnamese": "số",
+    "example": "这是我的电话号码。 (This is my phone number.)",
+    "lesson": 11
+  },
+  {
+    "id": 244,
+    "word": "空儿",
+    "pinyin": "kòngr",
+    "english": "free time",
+    "vietnamese": "thời gian rảnh",
+    "example": "你有空儿吗？ (Do you have free time?)",
+    "lesson": 11
+  },
+  {
+    "id": 245,
+    "word": "来",
+    "pinyin": "lái",
+    "english": "to come",
+    "vietnamese": "đến",
+    "example": "他来了。 (He came.)",
+    "lesson": 11
+  },
+  {
+    "id": 246,
+    "word": "玩儿",
+    "pinyin": "wánr",
+    "english": "to play",
+    "vietnamese": "chơi",
+    "example": "我们去玩儿吧。 (Let's go play.)",
+    "lesson": 11
+  },
+  {
+    "id": 247,
+    "word": "再见",
+    "pinyin": "zài jiàn",
+    "english": "goodbye",
+    "vietnamese": "tạm biệt",
+    "example": "再见！ (Goodbye!)",
+    "lesson": 11
+  },
+  {
+    "id": 248,
+    "word": "百",
+    "pinyin": "bǎi",
+    "english": "hundred",
+    "vietnamese": "trăm",
+    "example": "一百 (one hundred)",
+    "lesson": 11
+  },
+  {
+    "id": 249,
+    "word": "千",
+    "pinyin": "qiān",
+    "english": "thousand",
+    "vietnamese": "ngàn",
+    "example": "一千 (one thousand)",
+    "lesson": 11
+  },
+  {
+    "id": 250,
+    "word": "万",
+    "pinyin": "wàn",
+    "english": "ten thousand",
+    "vietnamese": "vạn",
+    "example": "一万 (ten thousand)",
+    "lesson": 11
+  },
+  {
+    "id": 251,
+    "word": "美元",
+    "pinyin": "měiyuán",
+    "english": "US dollar",
+    "vietnamese": "đô la Mỹ",
+    "example": "一百美元 (one hundred US dollars)",
+    "lesson": 11
+  },
+  {
+    "id": 252,
+    "word": "欧元",
+    "pinyin": "ǒuyuán",
+    "english": "Euro",
+    "vietnamese": "euro",
+    "example": "一百欧元 (one hundred Euros)",
+    "lesson": 11
+  },
+  {
+    "id": 253,
+    "word": "日元",
+    "pinyin": "rìyuán",
+    "english": "Japanese yen",
+    "vietnamese": "yên Nhật",
+    "example": "一百日元 (one hundred Japanese yen)",
+    "lesson": 11
+  },
+  {
+    "id": 254,
+    "word": "人民币",
+    "pinyin": "rénmínbì",
+    "english": "Chinese yuan",
+    "vietnamese": "nhân dân tệ Trung Quốc",
+    "example": "一百人民币 (one hundred Chinese yuan)",
+    "lesson": 11
+  },
+  {
+    "id": 255,
+    "word": "人民",
+    "pinyin": "rénmín",
+    "english": "people",
+    "vietnamese": "người dân",
+    "example": "中国人民 (Chinese people)",
+    "lesson": 11
+  },
+  {
+    "id": 256,
+    "word": "币",
+    "pinyin": "bì",
+    "english": "currency",
+    "vietnamese": "tiền tệ",
+    "example": "美元 (US dollar)",
+    "lesson": 11
+  },
+  {
+    "id": 257,
+    "word": "超市",
+    "pinyin": "chāoshì",
+    "english": "supermarket",
+    "vietnamese": "siêu thị",
+    "example": "我去超市买东西。 (I'm going to the supermarket to buy things.)",
+    "lesson": 11
+  },
+  {
+    "id": 258,
+    "word": "买",
+    "pinyin": "mǎi",
+    "english": "to buy",
+    "vietnamese": "mua",
+    "example": "我买了一本书。 (I bought a book.)",
+    "lesson": 11
+  },
+  {
+    "id": 259,
+    "word": "东西",
+    "pinyin": "dōngxi",
+    "english": "thing, item",
+    "vietnamese": "đồ vật",
+    "example": "这是什么东西？ (What is this thing?)",
+    "lesson": 11
+  },
+  {
+    "id": 260,
+    "word": "每",
+    "pinyin": "měi",
+    "english": "every, each",
+    "vietnamese": "mỗi",
+    "example": "我每天都吃早餐。 (I eat breakfast every day.)",
+    "lesson": 12
+  },
+  {
+    "id": 261,
+    "word": "骑",
+    "pinyin": "qí",
+    "english": "to ride",
+    "vietnamese": "cưỡi, đạp (xe đạp)",
+    "example": "我喜欢骑自行车。 (I like riding a bicycle.)",
+    "lesson": 12
+  },
+  {
+    "id": 262,
+    "word": "自行车",
+    "pinyin": "zìxíngchē",
+    "english": "bicycle",
+    "vietnamese": "xe đạp",
+    "example": "我喜欢骑自行车。 (I like riding a bicycle.)",
+    "lesson": 12
+  },
+  {
+    "id": 263,
+    "word": "教室",
+    "pinyin": "jiàoshì",
+    "english": "classroom",
+    "vietnamese": "lớp học",
+    "example": "我们在教室里。 (We are in the classroom.)",
+    "lesson": 12
+  },
+  {
+    "id": 264,
+    "word": "走路",
+    "pinyin": "zǒu lù",
+    "english": "to walk",
+    "vietnamese": "đi bộ",
+    "example": "我喜欢走路。 (I like walking.)",
+    "lesson": 12
+  },
+  {
+    "id": 265,
+    "word": "走",
+    "pinyin": "zǒu",
+    "english": "to walk",
+    "vietnamese": "đi",
+    "example": "我走过去。 (I walked over.)",
+    "lesson": 12
+  },
+  {
+    "id": 266,
+    "word": "路",
+    "pinyin": "lù",
+    "english": "road, path",
+    "vietnamese": "đường",
+    "example": "这条路很宽。 (This road is very wide.)",
+    "lesson": 12
+  },
+  {
+    "id": 267,
+    "word": "坐",
+    "pinyin": "zuò",
+    "english": "to travel by",
+    "vietnamese": "ngồi",
+    "example": "我坐公交车去学校。 (I take the bus to school.)",
+    "lesson": 12
+  },
+  {
+    "id": 268,
+    "word": "出租车",
+    "pinyin": "chūzūchē",
+    "english": "taxi",
+    "vietnamese": "xe taxi",
+    "example": "我叫了一辆出租车。 (I called a taxi.)",
+    "lesson": 12
+  },
+  {
+    "id": 269,
+    "word": "出租",
+    "pinyin": "chūzū",
+    "english": "to rent",
+    "vietnamese": "cho thuê",
+    "example": "我租了一辆车。 (I rented a car.)",
+    "lesson": 12
+  },
+  {
+    "id": 270,
+    "word": "车",
+    "pinyin": "chē",
+    "english": "car",
+    "vietnamese": "xe",
+    "example": "我有一辆车。 (I have a car.)",
+    "lesson": 12
+  },
+  {
+    "id": 271,
+    "word": "周末",
+    "pinyin": "zhōumò",
+    "english": "weekend",
+    "vietnamese": "cuối tuần",
+    "example": "我们周末去公园。 (We go to the park on the weekend.)",
+    "lesson": 12
+  },
+  {
+    "id": 272,
+    "word": "公共汽车",
+    "pinyin": "gōnggòng qìchē",
+    "english": "bus",
+    "vietnamese": "xe buýt",
+    "example": "我坐公共汽车去学校。 (I take the bus to school.)",
+    "lesson": 12
+  },
+  {
+    "id": 273,
+    "word": "公共",
+    "pinyin": "gōnggòng",
+    "english": "public",
+    "vietnamese": "công cộng",
+    "example": "公共设施 (public facilities)",
+    "lesson": 12
+  },
+  {
+    "id": 274,
+    "word": "汽车",
+    "pinyin": "qìchē",
+    "english": "car",
+    "vietnamese": "xe",
+    "example": "我有一辆车。 (I have a car.)",
+    "lesson": 12
+  },
+  {
+    "id": 275,
+    "word": "怎么",
+    "pinyin": "zěnme",
+    "english": "how",
+    "vietnamese": "thế nào",
+    "example": "你怎么了？ (What's wrong with you?)",
+    "lesson": 12
+  },
+  {
+    "id": 276,
+    "word": "挤",
+    "pinyin": "jǐ",
+    "english": "crowded",
+    "vietnamese": "đông đúc",
+    "example": "公共汽车很挤。 (The bus is very crowded.)",
+    "lesson": 12
+  },
+  {
+    "id": 277,
+    "word": "打的",
+    "pinyin": "dǎ dī",
+    "english": "to take a taxi",
+    "vietnamese": "đi taxi",
+    "example": "我打的去机场。 (I take a taxi to the airport.)",
+    "lesson": 12
+  },
+  {
+    "id": 278,
+    "word": "辆",
+    "pinyin": "liàng",
+    "english": "a measure word for vehicles",
+    "vietnamese": "chiếc",
+    "example": "我有一辆自行车。 (I have a bicycle.)",
+    "lesson": 12
+  },
+  {
+    "id": 279,
+    "word": "借",
+    "pinyin": "jiè",
+    "english": "to borrow, to lend",
+    "vietnamese": "mượn",
+    "example": "我可以借给你这本书。 (I can lend you this book.)",
+    "lesson": 12
+  },
+  {
+    "id": 280,
+    "word": "出发",
+    "pinyin": "chūfā",
+    "english": "to start off, to set out, to depart",
+    "vietnamese": "khởi hành",
+    "example": "我们出发去旅行。 (We set out for a trip.)",
+    "lesson": 12
+  },
+  {
+    "id": 281,
+    "word": "没问题",
+    "pinyin": "méi wèntí",
+    "english": "no problem",
+    "vietnamese": "không vấn đề gì",
+    "example": "没问题。 (No problem.)",
+    "lesson": 12
+  },
+  {
+    "id": 282,
+    "word": "问题",
+    "pinyin": "wèntí",
+    "english": "problem",
+    "vietnamese": "vấn đề",
+    "example": "有什么问题吗？ (Is there a problem?)",
+    "lesson": 12
+  },
+  {
+    "id": 283,
+    "word": "找",
+    "pinyin": "zhao",
+    "english": "to look for, to find",
+    "vietnamese": "tìm",
+    "example": "我在找我的钥匙。 (I am looking for my keys.)",
+    "lesson": 12
+  },
 ]
