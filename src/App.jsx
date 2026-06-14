@@ -77,18 +77,6 @@ function App() {
     goToCard(0)
   }
 
-  const handleSpeak = (event) => {
-    event.stopPropagation()
-
-    if (!('speechSynthesis' in window)) return
-
-    window.speechSynthesis.cancel()
-    const utterance = new SpeechSynthesisUtterance(currentWord.word)
-    utterance.lang = 'zh-CN'
-    utterance.rate = 0.8
-    window.speechSynthesis.speak(utterance)
-  }
-
   return (
     <main className="app-shell">
       <AppHeader />
@@ -112,7 +100,6 @@ function App() {
           word={currentWord}
           isFlipped={isFlipped}
           onFlip={() => setIsFlipped((flipped) => !flipped)}
-          onSpeak={handleSpeak}
         />
 
         <CardNavigation

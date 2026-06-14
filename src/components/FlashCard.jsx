@@ -1,4 +1,4 @@
-function FlashCard({ word, isFlipped, onFlip, onSpeak }) {
+function FlashCard({ word, isFlipped, onFlip }) {
   const handleKeyDown = (event) => {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault()
@@ -20,10 +20,6 @@ function FlashCard({ word, isFlipped, onFlip, onSpeak }) {
           <span className="card-label">Chữ Hán</span>
           <span className="hanzi">{word.word}</span>
           <span className="pinyin">{word.pinyin}</span>
-          <button className="speak-button" type="button" onClick={onSpeak}>
-            <span aria-hidden="true">◖</span>
-            Nghe phát âm
-          </button>
           <span className="flip-hint">Nhấn vào thẻ để xem nghĩa</span>
         </span>
 

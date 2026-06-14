@@ -1914,9 +1914,9 @@ export const NEW_WORDS = [
     word: "快/元",
     pinyin: "kuài/yuán",
     english:
-      "units of currency in China (kuài is more colloquial, yuán is more formal)",
+      "units of currency in China (kuài is the spoken form, yuán is the written form)",
     vietnamese:
-      "đơn vị tiền tệ ở Trung Quốc (kuài là cách nói thông thường, yuán là cách nói trang trọng hơn)",
+      "đơn vị tiền tệ ở Trung Quốc (kuài là văn nói, yuán là văn viết)",
     example: "这个苹果多少钱？ (How much is this apple?)",
     lesson: 10,
   },
