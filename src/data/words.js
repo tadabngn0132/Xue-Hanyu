@@ -1741,9 +1741,9 @@ export const NEW_WORDS = [
     id: 195,
     word: "还是",
     pinyin: "háishi",
-    english: "still, yet (used to indicate a preference or choice)",
-    vietnamese: "vẫn",
-    example: "我还是喜欢喝茶。 (I still like to drink tea.)",
+    english: "or",
+    vietnamese: "hoặc là, hay là",
+    example: "你要喝茶还是咖啡？ (Do you want to drink tea or coffee?)",
     lesson: 9,
   },
   {
