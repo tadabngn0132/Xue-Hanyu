@@ -1,121 +1,130 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { useMemo, useState } from 'react'
+import AppHeader from './components/AppHeader'
+import CardNavigation from './components/CardNavigation'
+import FlashCard from './components/FlashCard'
+import StudyProgress from './components/StudyProgress'
+import StudyToolbar from './components/StudyToolbar'
+import { NEW_WORDS } from './data/words'
 import './App.css'
 
+const ALL_LESSONS = 'all'
+
+function shuffleWords(words) {
+  const shuffled = [...words]
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1))
+    ;[shuffled[index], shuffled[randomIndex]] = [
+      shuffled[randomIndex],
+      shuffled[index],
+    ]
+  }
+
+  return shuffled
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [selectedLesson, setSelectedLesson] = useState(ALL_LESSONS)
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [isFlipped, setIsFlipped] = useState(false)
+  const [wordOrder, setWordOrder] = useState(() =>
+    NEW_WORDS.map((word) => word.id),
+  )
+
+  const lessons = useMemo(
+    () => [...new Set(NEW_WORDS.map((word) => word.lesson))],
+    [],
+  )
+
+  const displayedWords = useMemo(() => {
+    const words =
+      selectedLesson === ALL_LESSONS
+        ? NEW_WORDS
+        : NEW_WORDS.filter((word) => word.lesson === Number(selectedLesson))
+    const order = new Map(wordOrder.map((id, index) => [id, index]))
+
+    return [...words].sort(
+      (firstWord, secondWord) =>
+        order.get(firstWord.id) - order.get(secondWord.id),
+    )
+  }, [selectedLesson, wordOrder])
+
+  const currentWord = displayedWords[currentIndex]
+
+  const goToCard = (index) => {
+    setCurrentIndex(index)
+    setIsFlipped(false)
+  }
+
+  const handlePrevious = () => {
+    const previousIndex =
+      (currentIndex - 1 + displayedWords.length) % displayedWords.length
+    goToCard(previousIndex)
+  }
+
+  const handleNext = () => {
+    const nextIndex = (currentIndex + 1) % displayedWords.length
+    goToCard(nextIndex)
+  }
+
+  const handleLessonChange = (event) => {
+    setSelectedLesson(event.target.value)
+    goToCard(0)
+  }
+
+  const handleShuffle = () => {
+    setWordOrder(shuffleWords(NEW_WORDS).map((word) => word.id))
+    goToCard(0)
+  }
+
+  const handleSpeak = (event) => {
+    event.stopPropagation()
+
+    if (!('speechSynthesis' in window)) return
+
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(currentWord.word)
+    utterance.lang = 'zh-CN'
+    utterance.rate = 0.8
+    window.speechSynthesis.speak(utterance)
+  }
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+    <main className="app-shell">
+      <AppHeader />
+
+      <section className="study-panel" aria-label="Bộ thẻ học từ vựng">
+        <StudyToolbar
+          lessons={lessons}
+          selectedLesson={selectedLesson}
+          allLessonsValue={ALL_LESSONS}
+          onLessonChange={handleLessonChange}
+          onShuffle={handleShuffle}
+        />
+
+        <StudyProgress
+          currentIndex={currentIndex}
+          totalCards={displayedWords.length}
+          lesson={currentWord.lesson}
+        />
+
+        <FlashCard
+          word={currentWord}
+          isFlipped={isFlipped}
+          onFlip={() => setIsFlipped((flipped) => !flipped)}
+          onSpeak={handleSpeak}
+        />
+
+        <CardNavigation
+          onPrevious={handlePrevious}
+          onNext={handleNext}
+        />
       </section>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+      <p className="keyboard-note">
+        Mỗi lần lật thẻ là một lần ghi nhớ tốt hơn.
+      </p>
+    </main>
   )
 }
 
